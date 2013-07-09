@@ -33,3 +33,10 @@ dependencies declaration. Since requirejs allows the use of "require".
 
 The instrumented file will return exports. It means that almost any project written with commonjs
 can be converted flawlessly to requirejs without much pain.
+
+Warning 
+========================================
+
+This is a alpha project. It's not supposed to be ready for production. It kind of worked last time I tried. 
+But I don't remember that it handled well relative paths for require. It should convert relative path
+to absolute path to the file because nodejs is unable to do it properly...
